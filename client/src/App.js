@@ -14,8 +14,6 @@ import AdminRoute  from './AuthComponents/AdminRoute';
 import Sidebar from './Components/Sidebar';
 import { AuthLoginInfo }  from './AuthComponents/AuthLogin';
 
-
-
 function App() {
     const ctx = useContext(AuthLoginInfo);
     console.log(ctx)
